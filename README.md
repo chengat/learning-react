@@ -1,4 +1,4 @@
-This repo is a collection of all react projects I've been creatinga 
+This repo is a collection of all react projects I've been creating
 and working on, in the process of learning and expanding my knowledge 
 regarding react.
 
