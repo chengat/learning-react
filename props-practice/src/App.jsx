@@ -1,13 +1,11 @@
 import Joke from "./components/Joke";
+import jokesData from "./jokesData";
 
 export default function App() {
-  const ninjarTurtles = [
-    <h2>Donatello</h2>,
-    <h2>Michaelangelo</h2>,
-    <h2>Rafael</h2>,
-    <h2>Leonardo</h2>,
-  ];
-  return <main>{ninjarTurtles}</main>;
+  const jokeElements = jokesData.map((joke) => {
+    return <Joke setup={joke.setup} punchline={joke.punchline} />;
+  });
+  return <main>{jokeElements}</main>;
 }
 {
   /* <>
