@@ -7,17 +7,18 @@ export default function App() {
     return (
       <Entry
         key={data.id}
-        // img={{
-        //   src: data.img.src,
-        //   alt: data.img.alt,
-        // }}
-        // OR
-        img={data.img}
-        title={data.title}
-        country={data.country}
-        googleMapsLink={data.googleMapsLink}
-        dates={data.dates}
-        text={data.text}
+        data={data}
+        // // img={{
+        // //   src: data.img.src,
+        // //   alt: data.img.alt,
+        // // }}
+        // // OR
+        // img={data.img}
+        // title={data.title}
+        // country={data.country}
+        // googleMapsLink={data.googleMapsLink}
+        // dates={data.dates}
+        // text={data.text}
       />
     );
   });
