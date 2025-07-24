@@ -6,6 +6,7 @@ export default function App() {
   const travelJournal = data.map((data) => {
     return (
       <Entry
+        key={data.id}
         // img={{
         //   src: data.img.src,
         //   alt: data.img.alt,
