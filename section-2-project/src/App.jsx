@@ -7,7 +7,7 @@ export default function App() {
     return (
       <Entry
         key={data.id}
-        data={data}
+        data={data} //only if all the properties will be used by the component
         // // img={{
         // //   src: data.img.src,
         // //   alt: data.img.alt,
